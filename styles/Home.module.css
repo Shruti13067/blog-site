@@ -1,0 +1,70 @@
+
+/* styles/Home.module.css */
+.container{
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(246, 222, 240);
+}
+
+.searchInput {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #9c61a7;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.deleteButton {
+  margin-top: 10px;
+  background-color: #daacac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.newPostForm {
+  margin-right: 0%;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #9c61a7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newPostForm input,
+.newPostForm textarea,
+.newPostForm button {
+  display: block;
+  width: 98%;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.newPostForm button {
+  background-color: #411c39;
+  color: rgb(244, 215, 243);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
